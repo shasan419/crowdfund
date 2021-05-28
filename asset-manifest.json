@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/crowdfund/static/css/main.63188467.chunk.css",
+    "main.css": "/crowdfund/static/css/main.d85b7d2d.chunk.css",
     "main.js": "/crowdfund/static/js/main.aec9130d.chunk.js",
     "main.js.map": "/crowdfund/static/js/main.aec9130d.chunk.js.map",
     "runtime-main.js": "/crowdfund/static/js/runtime-main.823c6169.js",
@@ -10,7 +10,7 @@
     "static/js/3.aff359eb.chunk.js": "/crowdfund/static/js/3.aff359eb.chunk.js",
     "static/js/3.aff359eb.chunk.js.map": "/crowdfund/static/js/3.aff359eb.chunk.js.map",
     "index.html": "/crowdfund/index.html",
-    "static/css/main.63188467.chunk.css.map": "/crowdfund/static/css/main.63188467.chunk.css.map",
+    "static/css/main.d85b7d2d.chunk.css.map": "/crowdfund/static/css/main.d85b7d2d.chunk.css.map",
     "static/js/2.a11ea838.chunk.js.LICENSE.txt": "/crowdfund/static/js/2.a11ea838.chunk.js.LICENSE.txt",
     "static/media/icon-bookmark-green.5793b0dd.svg": "/crowdfund/static/media/icon-bookmark-green.5793b0dd.svg",
     "static/media/icon-bookmark.f980949d.svg": "/crowdfund/static/media/icon-bookmark.f980949d.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.823c6169.js",
     "static/js/2.a11ea838.chunk.js",
-    "static/css/main.63188467.chunk.css",
+    "static/css/main.d85b7d2d.chunk.css",
     "static/js/main.aec9130d.chunk.js"
   ]
 }
