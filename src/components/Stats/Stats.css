@@ -1,0 +1,59 @@
+.stats .stats-info {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.stats .progress-bar {
+  width: 100%;
+  height: 0.8rem;
+  margin-top: 3rem;
+  background: #e9e9e9;
+  border-radius: 30px;
+  position: relative;
+}
+.stats .progress-bar .progress {
+  /* width: 78%; */
+  height: 100%;
+  background: #3cb4ac;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+/* .stats .stats-info #stat__border {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding-left: 7.8rem;
+  padding-right: 7.8rem;
+} */
+.stat-bold {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-right: 1px solid lightgray;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.stat:first-child {
+  padding-left: 0;
+}
+.stat:last-child {
+  border-right: none;
+}
+@media only screen and (max-width: 456px) {
+  .stat {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+}
+@media only screen and (max-width: 345px) {
+  .stat {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+}

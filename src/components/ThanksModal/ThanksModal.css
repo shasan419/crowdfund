@@ -1,0 +1,32 @@
+.modal-success {
+  display: flex;
+  top: 25vh;
+  background: white;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+/* @media screen and (max-width: 569px) {
+  .modal-success {
+    width: 90%;
+  }
+} */
+
+.modal-success .img {
+  margin-bottom: 2rem;
+}
+
+.modal-success h2 {
+  margin-bottom: 1.5rem;
+}
+
+.modal-success .btn {
+  width: fit-content;
+  margin: auto;
+  margin-top: 1rem;
+}

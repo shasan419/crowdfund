@@ -1,0 +1,149 @@
+.card {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.card input[type="radio"] {
+  position: absolute;
+  transform: scale(1.5);
+  margin-top: 1.7rem;
+  left: 5%;
+  background: #3cb4ac;
+}
+
+.card .flex,
+.card .text {
+  margin-left: 8%;
+}
+
+.card .flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card .flex h4 {
+  cursor: pointer;
+}
+
+.card .flex h4:hover {
+  color: #3cb4ac;
+}
+
+.card .flex .price {
+  margin-left: 3%;
+  color: #3cb4ac;
+  font-weight: 500;
+}
+
+.card .amount-left {
+  position: absolute;
+  top: 1rem;
+  right: 1.7rem;
+  font-size: 0.9rem;
+  color: dimgray;
+  /* word-spacing: 0.1rem; */
+}
+
+@media screen and (max-width: 569px) {
+  .card .amount-left {
+    position: relative;
+    margin-left: calc(1rem + 8%);
+    margin-bottom: 2rem;
+  }
+}
+
+.card .amount-left span {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: black;
+}
+
+.card .pledge {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid lightgray;
+  color: dimgray;
+}
+
+@media screen and (max-width: 569px) {
+  .card .pledge {
+    flex-direction: column;
+  }
+  .card .pledge p {
+    margin-bottom: 1rem;
+  }
+}
+
+.card .pledge .pledge-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .pledge .pledge-right .input-amt {
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+  padding: 0.6rem;
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  color: dimgray;
+}
+
+.card .pledge .pledge-right .input-amt:focus-within {
+  border: 1px solid lightgray;
+}
+
+.card .pledge .pledge-right .input-amt input {
+  box-sizing: border-box;
+  margin-right: 0.5rem;
+  padding-left: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  border: none;
+  outline: none;
+  color: black;
+  font-weight: 500;
+  width: 100%;
+}
+
+.unavailable {
+  opacity: 0.5;
+}
+.unavailable .btn {
+  background: lightgray;
+  cursor: not-allowed;
+}
+
+.no-display {
+  display: none;
+}
+
+.selected {
+  border: 1px solid #3cb4ac;
+}
+
+.selected .pledge {
+  display: flex;
+}
+
+.btn {
+  padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 400px) {
+  .btn {
+    padding: 1rem 1rem;
+  }
+  .card .pledge .pledge-right .input-amt {
+    width: 4rem;
+  }
+}

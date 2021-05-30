@@ -1,0 +1,51 @@
+.content-card {
+  margin-top: 1.7rem;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+.content-card .section-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.content-card .section-top h4 {
+  font-weight: 600;
+  margin-top: -0.7rem;
+  margin-bottom: 1.5rem;
+  color: #3cb4ac;
+}
+.content-card .section-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-card .section-bottom .btn {
+  margin-top: 1rem;
+  max-width: 170px;
+}
+
+.unavailable {
+  opacity: 0.5;
+}
+.unavailable .btn {
+  background: lightgray;
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width: 570px) {
+  .content-card .section-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content-card .section-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

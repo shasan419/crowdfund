@@ -1,0 +1,10 @@
+.footer {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+  margin-bottom: 0.7rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
