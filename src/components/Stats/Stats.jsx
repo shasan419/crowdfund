@@ -8,7 +8,7 @@ const Stats = (props) => {
       <div className="stats-info">
         <div className="stat">
           <div className="stat-bold backed">
-            $<span id="backed-num">{totalRaised}</span>
+            $<span id="backed-num">{totalRaised.toLocaleString()}</span>
           </div>
           <p className="text stat-text">
             of $<span id="backed-total">100,000</span> backed
@@ -16,7 +16,7 @@ const Stats = (props) => {
         </div>
         <div className="stat">
           <div className="stat-bold backers" id="backers">
-            {totalBacked}
+            {totalBacked.toLocaleString()}
           </div>
           <p className="text stat-text">total backers</p>
         </div>
